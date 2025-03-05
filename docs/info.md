@@ -11,7 +11,8 @@ You can also include images in this folder and reference them in the markdown. E
 
 This circuit consists of a four-bit ALU with two operands, a three-bit operation selector with options for addition, subtraction, AND, OR, and XOR, as well as a carry/borrow indicator bit for !
 addition/subtraction and a flag bit that indicates a zero result.
-[alu4bits](https://github.com/user-attachments/assets/a0670507-2e5b-4008-8e45-1376a511940d)
+![alu4bits](https://github.com/user-attachments/assets/826a6086-7e73-4c4f-a8a8-8cfdee143d9b)
+
 ## How to test
 
 The circuit is fully combinational, where A[3:0] holds the first operand and B[7:0] holds the second operand, respectively. The [2:0] operation selector input provides five operation options: 000 → Addition, 001 → Subtraction, 010 → AND function, 011 → OR function, and 100 → XOR function. Additionally, the circuit includes a carry/borrow indicator bit for addition/subtraction, as well as a flag bit that indicates a zero result.
