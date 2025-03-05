@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
   title:        "4-bit Alu"      # Project title
-  author:       "Alejandro Silva Casco, Mauricio Rivero Martínez, Rodrigo, Rubisel Tobilla Heredia"      # Your name
+  author:       "Alejandro Silva Casco, Mauricio Rivero Martínez, Rodrigo Diego Barbosa, Rubisel Tobilla Heredia"      # Your name
   discord:      "Asilva"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "This circuit consists of a four-bit ALU, an operation selector with addition, subtraction, AND, OR and XOR options, and also has a carry/borrow indicator bit in addition/subtraction as well as a flag bit that indicates a zero result."      # One line description of what your project does
+  description:  "This circuit consists of a four-bit ALU, an operation selector with addition, subtraction, AND, OR, XOR and multiplication options, and also has a carry/borrow indicator bit in addition/subtraction as well as a flag bit that indicates a zero result."      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -34,24 +34,24 @@ pinout:
   ui[7]: "Operand input B[3]"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "Output of the operation result[0]"
+  uo[1]: "Output of the operation result[1]"
+  uo[2]: "Output of the operation result[2]"
+  uo[3]: "Output of the operation result[3]"
+  uo[4]: "Output of the operation result[4]"
+  uo[5]: "Output of the operation result[5]"
+  uo[6]: "Output of the operation result[6]"
+  uo[7]: "Output of the operation result[7]"
 
   # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
-  uio[4]: ""
-  uio[5]: ""
-  uio[6]: ""
-  uio[7]: ""
+  uio[0]: "Operation selector input[0]"
+  uio[1]: "Operation selector input[1]"
+  uio[2]: "Operation selector input[2]"
+  uio[3]: "Carry output indicator in addition"
+  uio[4]: "Borrow output indicator in subtraction"
+  uio[5]: "Flag bit output indicating zero result"
+  uio[6]: "Unused pin"
+  uio[7]: "Unused pin"
 
 # Do not change!
 yaml_version: 6
