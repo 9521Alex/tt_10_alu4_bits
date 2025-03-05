@@ -21,8 +21,8 @@ module tt_um_alu_4bits (
         .B(ui_in[7:4]),
         .sel(uio_in[2:0]),
         .result(uo_out[7:0]),
-        .carry(iuo_out[0]),
-        .zero(iuo_out[1])
+        .carry(uio_out[0]),
+        .zero(uio_out[1])
     );
 
 
