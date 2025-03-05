@@ -1,6 +1,6 @@
 // Modulo ALU de 4 bits
 
-module alu4bits (
+module alu_4bits (
     input  [3:0] A,          // Operando A de 4 bits
     input  [3:0] B,          // Operando B de 4 bits
     input  [2:0] sel,        // Selector de operacion
