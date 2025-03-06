@@ -11,7 +11,9 @@ You can also include images in this folder and reference them in the markdown. E
 
 This circuit consists of a four-bit ALU with two operands, a three-bit operation selector with options for addition, subtraction, AND, OR, and XOR, as well as a carry/borrow indicator bit for !
 addition/subtraction and a flag bit that indicates a zero result.
-![alu4bits](https://github.com/user-attachments/assets/826a6086-7e73-4c4f-a8a8-8cfdee143d9b)
+
+![alu_4bits](https://github.com/user-attachments/assets/97164799-44c3-4143-bcfd-0f1494734e6b)
+
 
 ## How to test
 
