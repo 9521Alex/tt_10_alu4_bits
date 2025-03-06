@@ -19,9 +19,10 @@ This circuit consists of a four-bit ALU with two operands, a three-bit operation
 The circuit is fully combinational, where A[3:0] holds the first operand and B[7:0] holds the second operand, respectively. The [2:0] operation selector input provides five operation options: 000 → Addition, 001 → Subtraction, 010 → AND function, 011 → OR function, and 100 → XOR function. Additionally, the circuit includes a carry/borrow indicator bit for addition/subtraction, as well as a flag bit that indicates a zero result.
 ![alu_pad](https://github.com/user-attachments/assets/b8c137e6-9042-4967-b5ad-fe56920ee1fd)
 
-![RTL_alu](https://github.com/user-attachments/assets/c815d115-31ca-4a6a-baf9-cb3f4b3c5aa8)
+![RTL_alu4bits](https://github.com/user-attachments/assets/748a6c0d-7291-42cc-8111-8c093da953b5)
 
-![tb_alu](https://github.com/user-attachments/assets/528377f6-0189-40d9-b723-f29f5bfc1c31)
+![tb_alu4bits](https://github.com/user-attachments/assets/17d266ad-6989-4c97-bfca-c975f9024691)
+
 
 ## External hardware
 
