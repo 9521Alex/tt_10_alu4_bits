@@ -36,7 +36,10 @@ always @(*) begin
             // Operacion multiplicacion
             result = A * B;
         end
-	    
+	3'b110: begin
+            // Operacion division
+            result = A / B;
+        end
         default: result = 8'b00000000;
     endcase
     // Se activa la bandera zero si el resultado es 0
