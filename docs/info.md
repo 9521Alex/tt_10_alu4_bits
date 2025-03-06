@@ -21,8 +21,7 @@ The circuit is fully combinational, where A[3:0] holds the first operand and B[7
 
 ![RTL_alu4bits](https://github.com/user-attachments/assets/748a6c0d-7291-42cc-8111-8c093da953b5)
 
-![tb_alu4bits](https://github.com/user-attachments/assets/17d266ad-6989-4c97-bfca-c975f9024691)
-
+![tb_alu4bits v](https://github.com/user-attachments/assets/e01b876d-f29f-456b-8640-4c5eaa92c6da)
 
 ## External hardware
 
